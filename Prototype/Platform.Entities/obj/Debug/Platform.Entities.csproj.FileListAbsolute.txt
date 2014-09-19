@@ -1,7 +1,0 @@
-E:\Info\Prototype\Platform.Entities\bin\Debug\Platform.Entities.dll
-E:\Info\Prototype\Platform.Entities\bin\Debug\Platform.Entities.pdb
-E:\Info\Prototype\Platform.Entities\bin\Debug\Platform.dll
-E:\Info\Prototype\Platform.Entities\bin\Debug\Platform.pdb
-E:\Info\Prototype\Platform.Entities\obj\Debug\Platform.Entities.csprojResolveAssemblyReference.cache
-E:\Info\Prototype\Platform.Entities\obj\Debug\Platform.Entities.dll
-E:\Info\Prototype\Platform.Entities\obj\Debug\Platform.Entities.pdb

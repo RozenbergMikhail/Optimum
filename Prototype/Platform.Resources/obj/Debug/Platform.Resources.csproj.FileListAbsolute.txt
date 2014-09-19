@@ -1,7 +1,0 @@
-E:\Info\Prototype\Platform.Resources\bin\Debug\Platform.Resources.dll
-E:\Info\Prototype\Platform.Resources\bin\Debug\Platform.Resources.pdb
-E:\Info\Prototype\Platform.Resources\bin\Debug\Platform.dll
-E:\Info\Prototype\Platform.Resources\bin\Debug\Platform.pdb
-E:\Info\Prototype\Platform.Resources\obj\Debug\Platform.Resources.csprojResolveAssemblyReference.cache
-E:\Info\Prototype\Platform.Resources\obj\Debug\Platform.Resources.dll
-E:\Info\Prototype\Platform.Resources\obj\Debug\Platform.Resources.pdb

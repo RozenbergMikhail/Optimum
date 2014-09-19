@@ -1,7 +1,0 @@
-E:\Info\Prototype\Platform.Web\bin\Debug\Platform.Web.dll
-E:\Info\Prototype\Platform.Web\bin\Debug\Platform.Web.pdb
-E:\Info\Prototype\Platform.Web\obj\Debug\Platform.Web.csprojResolveAssemblyReference.cache
-E:\Info\Prototype\Platform.Web\obj\Debug\Platform.Web.dll
-E:\Info\Prototype\Platform.Web\obj\Debug\Platform.Web.pdb
-E:\Info\Prototype\Platform.Web\bin\Debug\Platform.dll
-E:\Info\Prototype\Platform.Web\bin\Debug\Platform.pdb
