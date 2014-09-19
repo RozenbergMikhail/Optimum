@@ -1,0 +1,4 @@
+E:\Info\Prototype\Infrastructure.Client\bin\Debug\Infrastructure.Client.dll
+E:\Info\Prototype\Infrastructure.Client\bin\Debug\Infrastructure.Client.pdb
+E:\Info\Prototype\Infrastructure.Client\obj\Debug\Infrastructure.Client.dll
+E:\Info\Prototype\Infrastructure.Client\obj\Debug\Infrastructure.Client.pdb

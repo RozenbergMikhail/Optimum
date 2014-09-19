@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BFBFC954-CFD2-4FC8-B262-731B0895BBEA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sample</RootNamespace>
+    <AssemblyName>Sample</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnotherTypes\AnotherType.cs" />
+    <Compile Include="AnotherTypes\AnotherTypeSetProvider.cs" />
+    <Compile Include="AnotherTypes\AnotherTypeStructuredDataProvider.cs" />
+    <Compile Include="AnotherTypes\IAnotherTypeSetProvider.cs" />
+    <Compile Include="AnotherTypes\IAnotherTypeStructuredDataProvider.cs" />
+    <Compile Include="AnotherTypes\IAnotherTypeStructureProvider.cs" />
+    <Compile Include="Auth\ISampleUserTokenFactory.cs" />
+    <Compile Include="Auth\SampleCurrentUserTokenProvider.cs" />
+    <Compile Include="Auth\SampleUserData.cs" />
+    <Compile Include="Auth\SampleUserDataProvider.cs" />
+    <Compile Include="Auth\SampleUserToken.cs" />
+    <Compile Include="Auth\SampleUserTokenFactory.cs" />
+    <Compile Include="Auth\SampleUserTokenProvider.cs" />
+    <Compile Include="Contexts\ISampleContextProvider.cs" />
+    <Compile Include="Contexts\SampleContextProvider.cs" />
+    <Compile Include="Contexts\MeetingContextInitData.cs" />
+    <Compile Include="Delegates\DelegateInitData.cs" />
+    <Compile Include="Meetings\Attendee.cs" />
+    <Compile Include="Meetings\AttendeeInitData.cs" />
+    <Compile Include="Meetings\AttendeeProvider.cs" />
+    <Compile Include="Meetings\AttendeeState.cs" />
+    <Compile Include="Meetings\IAttendeeProvider.cs" />
+    <Compile Include="Meetings\IMeetingProvider.cs" />
+    <Compile Include="Meetings\Meeting.cs" />
+    <Compile Include="Contexts\MeetingContext.cs" />
+    <Compile Include="Meetings\MeetingInitData.cs" />
+    <Compile Include="Meetings\MeetingOperation.cs" />
+    <Compile Include="Meetings\MeetingOperationTreeProvider.cs" />
+    <Compile Include="Meetings\MeetingProvider.cs" />
+    <Compile Include="Meetings\MeetingState.cs" />
+    <Compile Include="Meetings\MeetingStateTreeProvider.cs" />
+    <Compile Include="Meetings\MeetingUpdateData.cs" />
+    <Compile Include="Meetings\MeetingUserRole.cs" />
+    <Compile Include="Meetings\MeetingUserRoleTreeProvider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleTypes\ISampleTypeSetProvider.cs" />
+    <Compile Include="SampleTypes\ISampleTypeStructuredDataProvider.cs" />
+    <Compile Include="SampleTypes\ISampleTypeStructureProvider.cs" />
+    <Compile Include="SampleTypes\SampleTypeInitData.cs" />
+    <Compile Include="SampleTypes\TestError.cs" />
+    <Compile Include="SampleTypes\SampleType.cs" />
+    <Compile Include="SampleTypes\SampleTypeSetProvider.cs" />
+    <Compile Include="SampleTypes\SampleTypeStructuredDataProvider.cs" />
+    <Compile Include="Delegates\IDelegateProvider.cs" />
+    <Compile Include="Delegates\Delegate.cs" />
+    <Compile Include="Delegates\DelegateProvider.cs" />
+    <Compile Include="Auth\SampleUserRole.cs" />
+    <Compile Include="Auth\SampleUserRoleProvider.cs" />
+    <Compile Include="Auth\SampleUserRoleTreeProvider.cs" />
+    <Compile Include="Output\TransformedStrings.cs" />
+    <Compile Include="YetAnotherTypes\IYetAnotherTypeSetProvider.cs" />
+    <Compile Include="YetAnotherTypes\IYetAnotherTypeStructuredDataProvider.cs" />
+    <Compile Include="YetAnotherTypes\IYetAnotherTypeStructureProvider.cs" />
+    <Compile Include="YetAnotherTypes\YetAnotherType.cs" />
+    <Compile Include="YetAnotherTypes\YetAnotherTypeSetProvider.cs" />
+    <Compile Include="YetAnotherTypes\YetAnotherTypeStructuredDataProvider.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Platform\Platform.csproj">
+      <Project>{10a32ffd-df41-44e6-9cc9-3984a66c00a6}</Project>
+      <Name>Platform</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

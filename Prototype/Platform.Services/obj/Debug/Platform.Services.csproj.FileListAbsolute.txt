@@ -1,0 +1,7 @@
+E:\Info\Prototype\Platform.Services\bin\Debug\Platform.Services.dll
+E:\Info\Prototype\Platform.Services\bin\Debug\Platform.Services.pdb
+E:\Info\Prototype\Platform.Services\bin\Debug\Platform.dll
+E:\Info\Prototype\Platform.Services\bin\Debug\Platform.pdb
+E:\Info\Prototype\Platform.Services\obj\Debug\Platform.Services.csprojResolveAssemblyReference.cache
+E:\Info\Prototype\Platform.Services\obj\Debug\Platform.Services.dll
+E:\Info\Prototype\Platform.Services\obj\Debug\Platform.Services.pdb

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{10A32FFD-DF41-44E6-9CC9-3984A66C00A6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Platform</RootNamespace>
+    <AssemblyName>Platform</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstractions\SingletonVariable.cs" />
+    <Compile Include="Abstractions\TreeNode.cs" />
+    <Compile Include="Contexts\UserContextInitData.cs" />
+    <Compile Include="Contexts\UserContextSnapshotInitData.cs" />
+    <Compile Include="Contexts\UserContextSnapshot.cs" />
+    <Compile Include="Development\ServiceIsMissingException.cs" />
+    <Compile Include="Development\MemoryPointerIsNullException.cs" />
+    <Compile Include="Development\SourceCodeNotImplementedException.cs" />
+    <Compile Include="Contexts\ContextSnapshotInitData.cs" />
+    <Compile Include="Contexts\ContextSnapshot.cs" />
+    <Compile Include="Contexts\ContextProvider.cs" />
+    <Compile Include="Contexts\IContextProvider.cs" />
+    <Compile Include="Contexts\Context.cs" />
+    <Compile Include="Contexts\ContextInitData.cs" />
+    <Compile Include="Contexts\UserContext.cs" />
+    <Compile Include="Entities\EntityException.cs" />
+    <Compile Include="Entities\Entity.cs" />
+    <Compile Include="Info\DescriptionProvider.cs" />
+    <Compile Include="Info\InfoEntityWithDescription.cs" />
+    <Compile Include="Info\InfoEntity.cs" />
+    <Compile Include="Info\IDescriptionProvider.cs" />
+    <Compile Include="Info\IInfoEntityFactory.cs" />
+    <Compile Include="Info\InfoEntityWithDescriptionFactory.cs" />
+    <Compile Include="Logging\ILogProvider.cs" />
+    <Compile Include="Objects\Object.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entities\IEnitityUserRoleTreeProvider.cs" />
+    <Compile Include="Entities\IEntityOperationTreeProvider.cs" />
+    <Compile Include="Entities\IEntityStateTreeProvider.cs" />
+    <Compile Include="Entities\IEntityWithOperations.cs" />
+    <Compile Include="Entities\IEntityWithState.cs" />
+    <Compile Include="Entities\IEntityWithUserRoles.cs" />
+    <Compile Include="Auth\IUserRoleProvider.cs" />
+    <Compile Include="Auth\IUserRoleTreeProvider.cs" />
+    <Compile Include="ServiceResolvers\IServiceResolver.cs" />
+    <Compile Include="ServiceResolvers\ServiceBundleWrapper.cs" />
+    <Compile Include="ServiceResolvers\ServiceBundle.cs" />
+    <Compile Include="ServiceResolvers\ServiceResolver.cs" />
+    <Compile Include="System\ConsoleProvider.cs" />
+    <Compile Include="System\IConsoleProvider.cs" />
+    <Compile Include="System\IHostNameProvider.cs" />
+    <Compile Include="System\IIPAddressProvider.cs" />
+    <Compile Include="System\ILocalTimeOffsetProvider.cs" />
+    <Compile Include="System\IUICultureProvider.cs" />
+    <Compile Include="System\IUTCTimeProvider.cs" />
+    <Compile Include="System\LocalTimeOffsetProvider.cs" />
+    <Compile Include="System\UICultureProvider.cs" />
+    <Compile Include="System\UTCTimeProvider.cs" />
+    <Compile Include="Auth\AnonymousUserToken.cs" />
+    <Compile Include="Auth\ICurrentUserTokenProvider.cs" />
+    <Compile Include="Auth\IUserDataProvider.cs" />
+    <Compile Include="Auth\IUserTokenProvider.cs" />
+    <Compile Include="Auth\UserData.cs" />
+    <Compile Include="Auth\UserToken.cs" />
+    <Compile Include="Auth\UserTokenRequest.cs" />
+    <Compile Include="Auth\UserTokenRequestNTLM.cs" />
+    <Compile Include="Auth\UserTokenRequestWithCredentials.cs" />
+    <Compile Include="UITree\EntityTreeNode.cs" />
+    <Compile Include="UITree\GroupTreeNode.cs" />
+    <Compile Include="UITree\IEntityTreeNode.cs" />
+    <Compile Include="UITree\INamedGroupTreeNode.cs" />
+    <Compile Include="UITree\IUITree.cs" />
+    <Compile Include="UITree\IUITreeNode.cs" />
+    <Compile Include="UITree\NamedGroupTreeNode.cs" />
+    <Compile Include="UITree\SeparatorTreeNode.cs" />
+    <Compile Include="UITree\UITree.cs" />
+    <Compile Include="UITree\UITreeNode.cs" />
+    <Compile Include="UITree\UITreeNodeType.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

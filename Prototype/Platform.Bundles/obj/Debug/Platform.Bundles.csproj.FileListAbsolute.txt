@@ -1,0 +1,7 @@
+E:\Info\Prototype\Platform.Bundles\bin\Debug\Platform.Bundles.dll
+E:\Info\Prototype\Platform.Bundles\bin\Debug\Platform.Bundles.pdb
+E:\Info\Prototype\Platform.Bundles\bin\Debug\Platform.dll
+E:\Info\Prototype\Platform.Bundles\bin\Debug\Platform.pdb
+E:\Info\Prototype\Platform.Bundles\obj\Debug\Platform.Bundles.csprojResolveAssemblyReference.cache
+E:\Info\Prototype\Platform.Bundles\obj\Debug\Platform.Bundles.dll
+E:\Info\Prototype\Platform.Bundles\obj\Debug\Platform.Bundles.pdb

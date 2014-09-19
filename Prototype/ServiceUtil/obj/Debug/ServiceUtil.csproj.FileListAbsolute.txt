@@ -1,0 +1,16 @@
+F:\WORK\ServiceUtil\ServiceUtil\bin\Debug\ServiceUtil.exe.config
+F:\WORK\ServiceUtil\ServiceUtil\obj\Debug\ServiceUtil.csprojResolveAssemblyReference.cache
+F:\WORK\ServiceUtil\ServiceUtil\obj\Debug\ServiceUtil.Resources.resources
+F:\WORK\ServiceUtil\ServiceUtil\obj\Debug\ServiceUtil.csproj.GenerateResource.Cache
+F:\WORK\ServiceUtil\ServiceUtil\bin\Debug\ServiceUtil.exe
+F:\WORK\ServiceUtil\ServiceUtil\bin\Debug\ServiceUtil.pdb
+F:\WORK\ServiceUtil\ServiceUtil\obj\Debug\ServiceUtil.exe
+F:\WORK\ServiceUtil\ServiceUtil\obj\Debug\ServiceUtil.pdb
+E:\Info\Prototype\ServiceUtil\bin\Debug\ServiceUtil.exe.config
+E:\Info\Prototype\ServiceUtil\obj\Debug\ServiceUtil.exe
+E:\Info\Prototype\ServiceUtil\obj\Debug\ServiceUtil.pdb
+E:\Info\Prototype\ServiceUtil\bin\Debug\ServiceUtil.exe
+E:\Info\Prototype\ServiceUtil\bin\Debug\ServiceUtil.pdb
+E:\Info\Prototype\ServiceUtil\obj\Debug\ServiceUtil.csprojResolveAssemblyReference.cache
+E:\Info\Prototype\ServiceUtil\obj\Debug\ServiceUtil.Resources.resources
+E:\Info\Prototype\ServiceUtil\obj\Debug\ServiceUtil.csproj.GenerateResource.Cache

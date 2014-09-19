@@ -1,0 +1,11 @@
+E:\Info\Prototype\Platform.Web.Bundles\bin\Debug\Platform.Web.Bundles.dll
+E:\Info\Prototype\Platform.Web.Bundles\bin\Debug\Platform.Web.Bundles.pdb
+E:\Info\Prototype\Platform.Web.Bundles\bin\Debug\Platform.dll
+E:\Info\Prototype\Platform.Web.Bundles\bin\Debug\Platform.Web.Configuration.dll
+E:\Info\Prototype\Platform.Web.Bundles\bin\Debug\Platform.Web.dll
+E:\Info\Prototype\Platform.Web.Bundles\bin\Debug\Platform.Web.Configuration.pdb
+E:\Info\Prototype\Platform.Web.Bundles\bin\Debug\Platform.Web.pdb
+E:\Info\Prototype\Platform.Web.Bundles\bin\Debug\Platform.pdb
+E:\Info\Prototype\Platform.Web.Bundles\obj\Debug\Platform.Web.Bundles.csprojResolveAssemblyReference.cache
+E:\Info\Prototype\Platform.Web.Bundles\obj\Debug\Platform.Web.Bundles.dll
+E:\Info\Prototype\Platform.Web.Bundles\obj\Debug\Platform.Web.Bundles.pdb

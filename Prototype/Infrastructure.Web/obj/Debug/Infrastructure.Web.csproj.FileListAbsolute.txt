@@ -1,0 +1,14 @@
+E:\Info\Prototype\Infrastructure.Web\bin\Debug\Infrastructure.Web.dll
+E:\Info\Prototype\Infrastructure.Web\bin\Debug\Infrastructure.Web.pdb
+E:\Info\Prototype\Infrastructure.Web\obj\Debug\Infrastructure.Web.csprojResolveAssemblyReference.cache
+E:\Info\Prototype\Infrastructure.Web\obj\Debug\Infrastructure.Web.dll
+E:\Info\Prototype\Infrastructure.Web\obj\Debug\Infrastructure.Web.pdb
+E:\Info\Prototype\Infrastructure.Web\bin\Debug\Infrastructure.dll
+E:\Info\Prototype\Infrastructure.Web\bin\Debug\Infrastructure.pdb
+F:\WORK\Prototype\Infrastructure.Web\bin\Debug\Infrastructure.Web.dll
+F:\WORK\Prototype\Infrastructure.Web\bin\Debug\Infrastructure.Web.pdb
+F:\WORK\Prototype\Infrastructure.Web\bin\Debug\Infrastructure.dll
+F:\WORK\Prototype\Infrastructure.Web\bin\Debug\Infrastructure.pdb
+F:\WORK\Prototype\Infrastructure.Web\obj\Debug\Infrastructure.Web.csprojResolveAssemblyReference.cache
+F:\WORK\Prototype\Infrastructure.Web\obj\Debug\Infrastructure.Web.dll
+F:\WORK\Prototype\Infrastructure.Web\obj\Debug\Infrastructure.Web.pdb

@@ -1,0 +1,11 @@
+E:\Info\Prototype\Platform.Web.Configuration\bin\Debug\Platform.Web.Configuration.dll
+E:\Info\Prototype\Platform.Web.Configuration\bin\Debug\Platform.Web.Configuration.pdb
+E:\Info\Prototype\Platform.Web.Configuration\obj\Debug\Platform.Web.Configuration.csprojResolveAssemblyReference.cache
+E:\Info\Prototype\Platform.Web.Configuration\obj\Debug\Platform.Web.Configuration.dll
+E:\Info\Prototype\Platform.Web.Configuration\obj\Debug\Platform.Web.Configuration.pdb
+E:\Info\Prototype\Platform.Web.Configuration\bin\Debug\Platform.Configuration.dll
+E:\Info\Prototype\Platform.Web.Configuration\bin\Debug\Platform.dll
+E:\Info\Prototype\Platform.Web.Configuration\bin\Debug\Platform.Web.dll
+E:\Info\Prototype\Platform.Web.Configuration\bin\Debug\Platform.Configuration.pdb
+E:\Info\Prototype\Platform.Web.Configuration\bin\Debug\Platform.Web.pdb
+E:\Info\Prototype\Platform.Web.Configuration\bin\Debug\Platform.pdb
